@@ -87,7 +87,7 @@ _global_script_classes=[ {
 "base": "Reference",
 "class": "Inflector",
 "language": "GDScript",
-"path": "res://addons/godot-next/references/inflector.gd"
+"path": "res://addons/godot-next/references/inflector/inflector.gd"
 }, {
 "base": "Reference",
 "class": "InspectorControls",
@@ -140,6 +140,11 @@ _global_script_classes=[ {
 "path": "res://addons/godot-next/resources/resource_collections/resource_set.gd"
 }, {
 "base": "Reference",
+"class": "Rule",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/inflector/rule.gd"
+}, {
+"base": "Reference",
 "class": "Singletons",
 "language": "GDScript",
 "path": "res://addons/godot-next/global/singletons.gd"
@@ -173,6 +178,16 @@ _global_script_classes=[ {
 "class": "Variant",
 "language": "GDScript",
 "path": "res://addons/godot-next/global/variant.gd"
+}, {
+"base": "Reference",
+"class": "Vocabulary",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/inflector/vocabulary.gd"
+}, {
+"base": "Vocabulary",
+"class": "VocabularyFactory",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/inflector/vocabulary_factory.gd"
 } ]
 _global_script_class_icons={
 "Array2D": "",
@@ -201,13 +216,16 @@ _global_script_class_icons={
 "ResourceArray": "",
 "ResourceCollection": "",
 "ResourceSet": "",
+"Rule": "",
 "Singletons": "",
 "Trail2D": "res://addons/godot-next/icons/icon_trail_2d.svg",
 "Trail3D": "res://addons/godot-next/icons/icon_trail_3d.svg",
 "TweenSequence": "",
 "Tweener": "",
 "VBoxItemList": "res://addons/godot-next/icons/icon_v_box_item_list.svg",
-"Variant": ""
+"Variant": "",
+"Vocabulary": "",
+"VocabularyFactory": ""
 }
 
 [application]
